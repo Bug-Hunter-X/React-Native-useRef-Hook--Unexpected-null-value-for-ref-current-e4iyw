@@ -1,0 +1,1 @@
+This error occurs when using the `useRef` hook in React Native with a functional component.  The `current` property of the ref is unexpectedly `null` even after the component has mounted and rendered. This often happens when trying to access the ref within a callback function or after an asynchronous operation.
